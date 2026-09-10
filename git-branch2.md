@@ -13,3 +13,6 @@ git switch is a newer, more focused command for changing branches, while git che
 
 7. Delete a branch you no longer need  - ( git branch -d feature-2) = Delete a branch safely.
 
+hi 
+how are you
+my name is dushnat
