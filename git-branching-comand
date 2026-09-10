@@ -1,0 +1,147 @@
+    1  clear
+    2  sudo apt-get update
+    3  sudo apt-get install git
+    4  git --version
+    5  clear
+    6  mkdir devops-git-practice
+    7  cd devops-git-practice/
+    8  git init
+    9  ls
+   10  ll
+   11  clear
+   12  vim git-commands.md
+   13  git add git-commands.md 
+   14  git status
+   15  git config --username "dushyant-singh18"
+   16  git config --global username "dushyant-singh18"
+   17  git config --global user.name "dushyant-singh18"
+   18  git config --global user.gmial "dusingh9997@gmail"
+   19  git config --global user.name
+   20  git config --global user.gmil
+   21  git config --global user.gmail
+   22  git config --global user.gmial
+   23  git config --global user.gmail "dusingh9997@gmail"
+   24  git config --global user.gmail
+   25  git config --list
+   26  clear
+   27  git commit -m "add this git command"
+   28  git status
+   29  git config --list
+   30  git cnfig --global --unset user.gmial
+   31  git config --global --unset user.gmial
+   32  git config --list
+   33  clear
+   34  git commit
+   35  git status
+   36  git show --name.only
+   37  git show --name-only
+   38  git log
+   39  git diff
+   40  git diff --staged
+   41  git branch
+   42  git remote add origin git@github.com:dushyant-singh18/git-1.git
+   43  git push -u origin main
+   44  git branch -m main
+   45  git branch
+   46  git push -u origin main
+   47  git remote add origin git@github.com:dushyant-singh18/git-1.git
+   48  git push -u origin main
+   49  ll
+   50  chmod 777 git-commands.md 
+   51  git push -u origin main
+   52  git push -f origin main
+   53  ls -al ~/.ssh
+   54  pwd
+   55  cd .ssh
+   56  cd ~/.ssh/
+   57  ls
+   58  cat authorized_keys 
+   59  ssh -T git@github.com
+   60  cd /home/ubuntu/devops-git-practice
+   61  git push -u origin main
+   62  cd ~/.ssh/
+   63  ls
+   64  cat known_hosts 
+   65  ssh-keygen
+   66  ls
+   67  cat yes.pub 
+   68  cd /home/
+   69  ls
+   70  cd ubuntu/
+   71  ls
+   72  cd devops-git-practice/
+   73  ls
+   74  git remote -v
+   75  git remote add origin git@github.com:dushyant-singh18/devops-git-practice.git
+   76  clear
+   77  pwd
+   78  ls
+   79  cd devops-git-practice/
+   80  git remote -v
+   81  git rmote remove origin
+   82  git remote remove origin
+   83  git remote -v
+   84  git remote add origin git@github.com:dushyant-singh18/devops-git-practice.git  
+   85  git remote -v
+   86  git push  -u main
+   87  git status
+   88  git stage
+   89  git add git-commands.md 
+   90  git status
+   91  git commit -m "add git commands"
+   92  git config --global -- list
+   93  git config --global --list
+   94  git commit -m "add git commands"
+   95  git branch
+   96  git push -u origin main
+   97  cd ~/.ssh/
+   98  ls
+   99  cd /home/ubuntu/devops-git-practice/
+  100  git push -u origin main
+  101  git remote -v
+  102  git push origin main
+  103  ssh -T git@github.com
+  104  ssh-add -l
+  105  ssh -T git@github.com
+  106  cd ~/.ssh/
+  107  ls
+  108  cat yes.pub 
+  109  ssh-add ~/.ssh/yes
+  110  eval "$(ssh-agent -s)"
+  111  ssh-add ~/.ssh/yes
+  112  ssh -T git@github.com
+  113  cd /home/ubuntu/devops-git-practice/
+  114  ls
+  115  git push origin main
+  116  history
+  117  clear
+  118  pwd
+  119  ls
+  120  vim git-branching
+  121  git branch -
+  122  git branch -a
+  123  git checkout master
+  124  git branch feature-1
+  125  git checkout feature-1 
+  126  git branch -a
+  127  git checkout main
+  128  git branch -a
+  129  git checkout -b feature-2
+  130  git branch -a
+  131  git switch main
+  132  git switch feature-1
+  133  ls
+  134  vim git-branching 
+  135  git add git-branching 
+  136  git commit -m "add git-branch by f-1"
+  137  git push origin feature-1
+  138  git switch main
+  139  ls
+  140  git logs
+  141  git log
+  142  git branch
+  143  git status
+  144  git branch
+  145  git branch -d feature-2
+  146  git branch
+  147  history > git-branching-comand
